@@ -2,10 +2,6 @@
   Portfolio Website - v.0<br/>
   <a href="" target="_blank">Meghana Khuntia</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
-
 <br/>
 
 
@@ -38,3 +34,4 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 
+# Meghan1202.github.io
