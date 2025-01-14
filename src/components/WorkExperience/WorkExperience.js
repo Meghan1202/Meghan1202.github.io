@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Carousel} from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 import ExperienceCards from "./ExperienceCards";
 import Particle from "../Particle";
 
@@ -14,8 +14,6 @@ function WorkExperience() {
                 <p style={{ color: "white" }}>
                     Here are the roles I've had, along with my contributions and responsibilities.
                 </p>
-                <Carousel style={{ paddingBottom: "10px" }} interval={5000} controls={false} indicators={true}>
-                    <Carousel.Item>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     {/* SAP Labs Experience */}
                     <Col md={4} className="project-card">
@@ -37,8 +35,6 @@ function WorkExperience() {
                         />
                     </Col>
                 </Row>
-                </Carousel.Item>
-                <Carousel.Item>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     <Col md={4} className="project-card">
                         <ExperienceCards
@@ -58,8 +54,6 @@ function WorkExperience() {
                         />
                     </Col>
                 </Row>
-                </Carousel.Item>
-                </Carousel>
             </Container>
         </Container>
     );

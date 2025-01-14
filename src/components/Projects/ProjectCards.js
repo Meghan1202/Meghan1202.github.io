@@ -7,16 +7,16 @@ import { BsGithub } from "react-icons/bs";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
+        <Card.Footer>{props.date}</Card.Footer>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
+        {props.ghLink ? (<Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
+        </Button>) : <></>}
         {"\n"}
         {"\n"}
 
@@ -33,6 +33,27 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
+        {/* Skills Display */}
+        <div style={{ marginTop: "15px"}}>
+          <div className="d-flex flex-wrap">
+            {props.skills.map((skill, index) => (
+              <span
+                key={index}
+                style={{
+                  backgroundColor: "#6f42c1",
+                  color: "white",
+                  padding: "5px 10px",
+                  borderRadius: "15px",
+                  margin: "5px",
+                  fontSize: "0.85rem",
+                }}
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+        
       </Card.Body>
     </Card>
   );
