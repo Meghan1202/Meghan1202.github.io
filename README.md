@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v.0<br/>
-  <a href="" target="_blank">Meghana Khuntia</a>
+  <a href="https://meghan1202-github-io.vercel.app/" target="_blank">Meghana Khuntia</a>
 </h2>
 <br/>
 
@@ -34,4 +34,4 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 
-# Meghan1202.github.io
+Base Template Credit: [https://github.com/soumyajit4419/Portfolio](https://github.com/soumyajit4419/Portfolio)

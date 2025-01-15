@@ -52,7 +52,7 @@ just a few clicks and the fabricated server is directly pushed to Github for sha
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              title="Project Mendacious"
+              title="Auth Service"
               date="03/2021"
               description=" Build an auth microservice that would do authentication and authorization of new/ current users."
               skills={["Express.Js", "Middleware", "Validations", "Docker"]}
