@@ -20,7 +20,7 @@ function Home2() {
             {/* Experienced software developer with a focus in backend development, building server-side applications. Currently working at
 SAP Labs transforming requirements into efficient solutions. Previously worked in Mckinsey & Company */}
             <p className="home-about-body">
-              I am an experienced software developer with a focus in backend development, building server-side applications.
+              I am an experienced software developer who is specialized in designing efficient and scalable systems to tackle real-world challenges effectively.
               I love to solve complex problems and am highly inclined towards mathematical thinking.
               <br />
               <br />I am fluent in classics like

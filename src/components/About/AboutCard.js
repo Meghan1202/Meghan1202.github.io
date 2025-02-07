@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Meghana Khuntia </span>
             from <span className="purple"> Vancouver, Canada.</span>
             <br />
-            I am currently working as a software developer intern at SAP Vancouver transforming requirements into efficient solutions. Previously worked at Mckinsey & Company.
+            I am currently working as a Software Developer Intern at SAP Vancouver transforming requirements into efficient solutions. Previously worked at Mckinsey & Company.
             <br />
             I have completed Master of Science (MSc) in Computer Science from University of British Columbia. As a part of my research journey, I have formulated, modeled and solved a road design optimization problem . 
             <br />
