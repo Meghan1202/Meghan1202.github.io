@@ -9,18 +9,18 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Meghana Khuntia </span>
-            from <span className="purple"> Vancouver, Canada.</span>
+            from <span className="purple"> Vancouver, Canada</span>.
             <br />
             I am currently working as a Software Developer Intern at SAP Vancouver transforming requirements into efficient solutions. Previously worked at Mckinsey & Company.
             <br />
-            I have completed Master of Science (MSc) in Computer Science from University of British Columbia. As a part of my research journey, I have formulated, modeled and solved a road design optimization problem . 
+            I hold a Master of Science (MSc) in Computer Science from the University of British Columbia. During my research journey, I formulated, modeled, and solved a road design optimization problem.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Organizing 3D printing events at SAP 
+              <ImPointRight /> Cooking
             </li>
             <li className="about-activity">
               <ImPointRight /> Writing Tech Blogs
